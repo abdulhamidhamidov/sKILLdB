@@ -51,3 +51,5 @@ select * from Requests;
 select * from Requests where Id=@Id;;
 update Requests set FromUserId=@FromUserId,ToUserId=@ToUserId,RequestedSkillId=@RequestedSkillId,OfferedSkillId=@OfferedSkillId,Status=@Status where Id=@Id;
 delete from Requests where Id=@Id;
+
+select u.id,u.fullname, u.email, u.phone, u.city from Users u join Skills s on u.UserId = S.Id where s.Title=@Title;
