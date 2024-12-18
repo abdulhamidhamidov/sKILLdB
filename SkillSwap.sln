@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{06EAD7EF-4C5F-45C2-BFD9-F88F11E79999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrostructure", "Infrostructure\Infrostructure.csproj", "{168C9970-6985-4D8F-B9F3-9EFC2D0D1BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEbApp", "WEbApp\WEbApp.csproj", "{1594937D-014D-400A-85D0-6F8F124B52BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EAD7EF-4C5F-45C2-BFD9-F88F11E79999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EAD7EF-4C5F-45C2-BFD9-F88F11E79999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EAD7EF-4C5F-45C2-BFD9-F88F11E79999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EAD7EF-4C5F-45C2-BFD9-F88F11E79999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168C9970-6985-4D8F-B9F3-9EFC2D0D1BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168C9970-6985-4D8F-B9F3-9EFC2D0D1BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168C9970-6985-4D8F-B9F3-9EFC2D0D1BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168C9970-6985-4D8F-B9F3-9EFC2D0D1BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1594937D-014D-400A-85D0-6F8F124B52BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1594937D-014D-400A-85D0-6F8F124B52BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1594937D-014D-400A-85D0-6F8F124B52BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1594937D-014D-400A-85D0-6F8F124B52BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
